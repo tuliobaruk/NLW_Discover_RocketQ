@@ -30,7 +30,7 @@ html {
 }
 
 body {
-
+    display: flex;
     height: 100vh;
     background: var(--background);
 
@@ -45,12 +45,6 @@ body {
     width: 16.7rem;
 
 }
-
-
-
-
-
-
 
 body, button, input, textarea {
 

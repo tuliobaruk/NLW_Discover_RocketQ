@@ -1,0 +1,123 @@
+.content{
+    max-width: min(112rem, 90%);
+}
+
+#room header{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#room header .buttons{
+    display: flex;
+
+}
+
+/* --- Primeiro Botão do Header --- */
+#room header .buttons .button:nth-child(1){
+    margin-right: .8rem;
+    padding: 1.3rem 1.6rem;
+}
+
+#room header .buttons .button:nth-child(1) img {
+    margin-right: 0rem;
+    margin-left: 1rem;
+    width: 2rem;
+    height: 2rem;
+}
+/* --- Primeiro Botão do Header --- */
+
+
+/* --- Segundo Botão do Header --- */
+#room header .buttons .button:nth-child(2){
+    margin-right: .8rem;
+    padding: 1.3rem 3.2rem;
+}
+
+#room header .buttons .button:nth-child(2) img {
+    margin-right: 1rem;
+    width: 2rem;
+    height: 2rem;
+}
+/* --- Segundo Botão do Header --- */
+
+
+/* --- Question Form --- */
+
+#question-form h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2.8rem;
+    color: var(--black);
+
+    margin-bottom: 2.4rem;
+    line-height: 4.2rem;
+}
+
+#question-form form{
+    border: .2rem solid var(--grey-blue);
+    padding: 1.6rem;
+    border-radius: 0rem .8rem .8rem .8rem;
+
+    margin-bottom: 1.6rem;
+}
+
+#question-form form textarea{
+    resize: none;
+    background: transparent;
+    width: 100%;
+
+    outline: none;
+}
+
+#question-form form textarea::placeholder{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: var(--grey-blue);
+}
+
+
+#question-form form footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#question-form form footer > div{
+    display: flex;
+    align-items: center;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: var(--icons-details);
+    
+}
+
+#question-form form footer > div img{
+    margin-right: .9rem;
+}
+
+#question-form form footer button{
+    line-height: 2.4rem;
+    height: auto;
+    padding: .8rem 2.4rem;
+}
+/* --- Question Form --- */
+
+/* --- Section Questions --- */
+
+
+#questions .questions .question-wrapper .question-content{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+/* --- Section Questions --- */
