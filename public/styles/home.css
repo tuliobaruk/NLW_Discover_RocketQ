@@ -19,8 +19,13 @@ header{
 
     background: url(../images/home-bg-img.svg) no-repeat top/contain;
     background-position-x: -10rem;
+    animation: bounce 5s infinite;
 }
-
+@keyframes bounce{
+    0%{background-position: -10rem 0rem;}
+    50%{background-position: -10rem -3rem;}
+    100%{background-position: -10rem -0rem;}
+}
 main{
     margin-top: -12rem;
     grid-area: right;
